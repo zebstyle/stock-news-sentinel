@@ -1,0 +1,23 @@
+# Lightweight Stock News Sentinel Requirements
+# Minimal dependencies for faster installation
+
+# Core Framework
+streamlit>=1.31.0
+
+# Web Scraping (lightweight)
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Sentiment Analysis (lightweight - VADER only, no FinBERT)
+vaderSentiment>=3.3.2
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Data Processing (minimal)
+pandas>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Made with Bob

@@ -1,0 +1,33 @@
+# Stock News Sentinel Requirements
+# Optimized for lighter installation
+
+# Core Framework
+streamlit>=1.31.0
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=5.1.0
+
+# Sentiment Analysis (VADER - lightweight, no model download)
+vaderSentiment>=3.3.2
+
+# Optional: Advanced sentiment (comment out if not needed)
+# transformers>=4.38.0
+# torch>=2.2.0
+
+# Optional: Additional scraping (comment out if not needed)
+# selenium>=4.18.0
+# webdriver-manager>=4.0.0
+# newspaper3k>=0.2.8
+
+# Scheduling
+APScheduler>=3.10.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Made with Bob
